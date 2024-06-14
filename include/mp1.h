@@ -1,7 +1,7 @@
 #ifndef _MP1_H_
 #define _MP1_H_
 
-#include "types.h"
+#include "ultra64.h"
 #include "OS.h"
 #include "functions.h"
 

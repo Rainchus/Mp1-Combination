@@ -30,8 +30,6 @@
 .definelabel osContGetReadData, 0x80090120
 .definelabel playerInputs, 0x800ECE08
 
-.definelabel cFile, 0x800BAC00
-.definelabel customThread, 0x800B9B00
 .definelabel gCrashScreen, 0x800B8B00
 .definelabel osMemSize, 0x80000318
 .definelabel __osCurrentTime, 0x800F0A30
@@ -47,3 +45,4 @@
 .definelabel osCreateMesgQueue, 0x80088620
 .definelabel osCreateThread, 0x80088650
 .definelabel osStartThread, 0x80088D10
+.definelabel osPiRawStartDma, 0x80091E40
