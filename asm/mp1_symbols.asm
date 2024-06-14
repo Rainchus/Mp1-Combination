@@ -46,3 +46,5 @@
 .definelabel osCreateThread, 0x80088650
 .definelabel osStartThread, 0x80088D10
 .definelabel osPiRawStartDma, 0x80091E40
+
+.definelabel osPiRawStartDmaMp3, 0x80080A60 //81660

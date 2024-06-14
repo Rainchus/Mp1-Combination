@@ -1,6 +1,6 @@
 #include "mp1.h"
 
-static void waitSubsystems(void) {
+void WaitForSubSystems(void) {
     u32 tmp;
 
     for (;;)
