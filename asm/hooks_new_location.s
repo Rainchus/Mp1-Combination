@@ -37,3 +37,10 @@ ADDU a2, a2, t0
 J 0x80072958
 NOP
 
+HuStartDmaHook:
+ADDIU sp, sp, -0x18
+SW ra, 0x0010 (sp)
+LI t0, 0x2000000
+ADDU a3, a3, t0
+J 0x8004DA00
+NOP
