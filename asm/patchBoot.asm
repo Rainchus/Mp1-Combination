@@ -30,16 +30,16 @@ J LoadOverlayHook
 NOP
 
 .headersize 0x7DFFF400 //ROM Addr of combination rom, 0x3EFDB00
-.org 0x8004D9F8
-J HuStartDmaHook
-NOP
+//.org 0x8004D9F8
+//J HuStartDmaHook
+//NOP
 
 .org 0x8000C2C0 //patch mp3 save check
 NOP
 
-//.org 0x80072950
-//J osEPiRawStartDmaHook
-//NOP
+.org 0x80072950
+J osEPiRawStartDmaHook
+NOP
 
 .org 0x80000400
 //mp3 boot patches
